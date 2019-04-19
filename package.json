@@ -18,7 +18,8 @@
   "private": true,
   "dependencies": {
     "@frctl/fractal": "^1.1.7",
-    "fractal-react-adapter": "^1.0.3",
+    "@frctl/mandelbrot": "^1.2.1",
+    "fractal-react-adapter": "git@github.com:acolpitts/fractal-react-adapter.git",
     "next": "^8.1.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"

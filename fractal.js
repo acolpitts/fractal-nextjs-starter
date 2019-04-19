@@ -3,7 +3,15 @@
 /* Create a new Fractal instance and export it for use elsewhere if required */
 const fractal = module.exports = require('@frctl/fractal').create();
 
-// fractal.web.theme ({nav: ["docs", "components"]}); // tell Fractal to use the configured theme by defaul
+const mandelbrot = require ('@frctl/mandelbrot'); // require the Mandelbrot theme module
+
+// create a new instance with custom config options
+const myCustomisedTheme = mandelbrot ({
+  skin: "black",
+  nav: ["docs", "components"] // show docs above components in the sidebar
+});
+
+fractal.web.theme (myCustomisedTheme); // tell Fractal to use the configured theme by default
 
 /* Set the title of the project */
 fractal.set('project.title', 'Universal React + Fractal.build');
