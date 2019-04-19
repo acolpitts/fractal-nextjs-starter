@@ -1,0 +1,24 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "description": "Universal React + Fractal.build",
+  "main": "index.js",
+  "scripts": {
+    "fractal": "fractal start --sync",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [
+    "react",
+    "nextjs",
+    "fractal.build"
+  ],
+  "author": "Adam Colpitts",
+  "private": true,
+  "dependencies": {
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
