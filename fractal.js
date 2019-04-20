@@ -27,7 +27,12 @@ fractal.components.engine(reactAdapter);
 fractal.components.set('ext', '.jsx');
 
 /* Tell Fractal where the components will live */
-fractal.components.set('path', __dirname + '/lib/components');
+fractal.components.set('path', __dirname + '/lib');
+
+/*
+ * Top-level label for components in web UI
+ */
+fractal.components.set ('label', 'Library');
 
 /* Tell Fractal where the documentation pages will live */
 //fractal.docs.set('path', __dirname + '/docs');

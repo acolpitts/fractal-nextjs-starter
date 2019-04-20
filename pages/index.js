@@ -1,4 +1,4 @@
-import Home from '../lib/components/04-templates/Home';
+import Home from '../lib/templates/Home';
 
 export default () => (
   <main>
