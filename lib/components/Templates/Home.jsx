@@ -1,8 +1,9 @@
-import Card from '../lib/components/Card/Card';
+import React from 'react';
+import Card from '../Card/Card';
 
 export default () => (
   <section>
-    <h1>Welcome to next.js!</h1>
+    <h1>Welcome to next.js + fractal!</h1>
     <Card
       title="Card Title"
       description="Lorem ipsum dollar amit"

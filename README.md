@@ -1,5 +1,5 @@
 # Universal React + Fractal.build Starter
-Start nextjs app for server rendered react and fractal.build for FE design system
+Simple nextjs app for server rendered react and fractal.build for FE design system
 
 ## Getting Started
 1. clone repo
